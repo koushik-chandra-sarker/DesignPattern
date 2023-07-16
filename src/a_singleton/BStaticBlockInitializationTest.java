@@ -1,6 +1,6 @@
 /**
  * Project Name: DesignPattern
- * File: CLazyInitializedTest$
+ * File: BStaticBlockInitializationTest$
  * Author: Koushik Chandra Sarker
  * Date: 7/15/2023$ (MM/DD/YYYY)
  * Description: .
@@ -8,12 +8,14 @@
  * - 7/15/2023$: Koushik Chandra Sarker - Initial version
  * - [Date]: [Author's Name] - [Modification description]
  */
-package singleton;
+package a_singleton;
 
-public class CLazyInitializedTest {
+public class BStaticBlockInitializationTest {
+
     public static void main(String[] args) {
-        CLazyInitialized instanceOne = CLazyInitialized.getInstance();
-        CLazyInitialized instanceTwo = CLazyInitialized.getInstance();
+        BStaticBlockInitialization instanceOne = BStaticBlockInitialization.getInstance();
+        BStaticBlockInitialization instanceTwo = BStaticBlockInitialization.getInstance();
+
 
         System.out.println(instanceOne.hashCode());
         System.out.println(instanceTwo.hashCode());

@@ -8,7 +8,7 @@
  * - 7/16/2023$: Koushik Chandra Sarker - Initial version
  * - [Date]: [Author's Name] - [Modification description]
  */
-package factory;
+package b_factory;
 
 public class ComputerFactory {
     public static Computer getComputer(String type, String ram, String hdd, String cpu){

@@ -8,7 +8,7 @@
  * - 7/15/2023$: Koushik Chandra Sarker - Initial version
  * - [Date]: [Author's Name] - [Modification description]
  */
-package singleton;
+package a_singleton;
 
 /**
  * To make Thread safe, singleton class, just create methods with 'synchronized' keys.

@@ -8,7 +8,7 @@
  * - 7/15/2023$: Koushik Chandra Sarker - Initial version
  * - [Date]: [Author's Name] - [Modification description]
  */
-package singleton;
+package a_singleton;
 
 public class AEagerInitialization {
     private static final AEagerInitialization INSTANCE = new AEagerInitialization();

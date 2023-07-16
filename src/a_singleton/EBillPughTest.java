@@ -1,6 +1,6 @@
 /**
  * Project Name: DesignPattern
- * File: BStaticBlockInitializationTest$
+ * File: EBillPughTest$
  * Author: Koushik Chandra Sarker
  * Date: 7/15/2023$ (MM/DD/YYYY)
  * Description: .
@@ -8,14 +8,12 @@
  * - 7/15/2023$: Koushik Chandra Sarker - Initial version
  * - [Date]: [Author's Name] - [Modification description]
  */
-package singleton;
+package a_singleton;
 
-public class BStaticBlockInitializationTest {
-
+public class EBillPughTest {
     public static void main(String[] args) {
-        BStaticBlockInitialization instanceOne = BStaticBlockInitialization.getInstance();
-        BStaticBlockInitialization instanceTwo = BStaticBlockInitialization.getInstance();
-
+        EBillPugh instanceOne = EBillPugh.getInstance();
+        EBillPugh instanceTwo = EBillPugh.getInstance();
 
         System.out.println(instanceOne.hashCode());
         System.out.println(instanceTwo.hashCode());

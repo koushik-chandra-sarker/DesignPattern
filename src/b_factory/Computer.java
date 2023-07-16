@@ -8,7 +8,7 @@
  * - 7/16/2023$: Koushik Chandra Sarker - Initial version
  * - [Date]: [Author's Name] - [Modification description]
  */
-package factory;
+package b_factory;
 
 /*
 * Super class in factory design pattern can be an interface, abstract class or a normal java class.
