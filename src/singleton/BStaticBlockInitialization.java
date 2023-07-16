@@ -13,7 +13,7 @@ package singleton;
 public class BStaticBlockInitialization {
     private static final BStaticBlockInitialization instance;
 
-    private BStaticBlockInitialization(){}
+    BStaticBlockInitialization(){}
 
     static{
         try {
